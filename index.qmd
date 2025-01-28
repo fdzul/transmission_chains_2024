@@ -1,0 +1,9 @@
+---
+title: "Programa de Prevención & Control del Dengue | 2024"
+format: 
+  dashboard:
+      scrolling: true
+      logo: https://www.gob.mx/cms/uploads/action_program/main_image/26942/post_post_portadavectores.gif
+      nav-buttons: [twitter, github, facebook]
+theme: custom.scss
+---
