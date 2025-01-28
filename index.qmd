@@ -7,3 +7,19 @@ format:
       nav-buttons: [twitter, github, facebook]
 theme: custom.scss
 ---
+
+```{r setup}
+library(sf)
+mapview::mapviewOptions(default = TRUE,
+                        basemaps.color.shuffle = FALSE)
+load("/Users/felipedzul/Library/CloudStorage/OneDrive-Personal/proyects/geocoding_mex/2024/8.RData/denmex_2024.RData")
+```
+
+
+# [**Cadenas de Transmisión**]{style="font-size:8pt"}
+
+::: panel-tabset
+
+### [**Jalisco**]{style="color:#990000"}
+
+:::
