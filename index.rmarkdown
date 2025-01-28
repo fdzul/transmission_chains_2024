@@ -16,6 +16,8 @@ load("/Users/felipedzul/Library/CloudStorage/OneDrive-Personal/proyects/geocodin
 ```
 
 
+
+
 # [**Cadenas de Transmisión**]{style="font-size:8pt"}
 
 ::: panel-tabset
@@ -24,10 +26,14 @@ load("/Users/felipedzul/Library/CloudStorage/OneDrive-Personal/proyects/geocodin
 
 <html>
 <head>
+
+
 ```{=html}
 <style>
 </style>
 ```
+
+
 </head>
 <body>
 <div>
@@ -35,6 +41,8 @@ load("/Users/felipedzul/Library/CloudStorage/OneDrive-Personal/proyects/geocodin
 ::: {style="display: grid; width: 1px; grid-template-columns: 550px 550px; align-items: start; justify-content: space-between;"}
 
  [**Guadalajara**]{style="color:blue"}
+
+
 
 ```{r}
 denhotspots::transmission_chains_map(geocoded_dataset = z,
@@ -47,7 +55,11 @@ denhotspots::transmission_chains_map(geocoded_dataset = z,
 ```
 
 
+
+
 [**Puerto Vallarta**]{style="color:blue"}
+
+
 
 ```{r}
 denhotspots::transmission_chains_map(geocoded_dataset = z,
@@ -55,6 +67,8 @@ denhotspots::transmission_chains_map(geocoded_dataset = z,
                                      locality = "Puerto Vallarta",
                                      dengue_cases = "Confirmado")
 ```
+
+
 
 </div>
 </body>
@@ -65,3 +79,4 @@ denhotspots::transmission_chains_map(geocoded_dataset = z,
 
 
 :::
+
